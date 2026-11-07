@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aditya Tyagi — AI Engineer</title>
+<meta name="description" content="Aditya Tyagi is an Artificial Intelligence Engineer at pragyaa.ai in Delhi, building multi-agent systems, RAG pipelines and workflow automation.">
+<meta name="author" content="Aditya Tyagi">
+<link rel="canonical" href="https://adityatyagi.vercel.app/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aditya Tyagi — AI Engineer">
+<meta property="og:description" content="Multi-agent systems, RAG pipelines and workflow automation. AI Engineer at pragyaa.ai.">
+<meta property="og:image" content="./assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23070b16'/><text x='50' y='68' font-size='52' font-family='Arial Black,sans-serif' font-weight='900' fill='%23247bff' text-anchor='middle'>A</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="spot" id="spot" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav-mark" href="#top"><span class="dot"></span>ADITYA TYAGI</a>
+  <nav class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#path">Path</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" id="nav-cta" href="#contact">Get in touch</a>
+</header>
+
+<main id="main">
+
+  <!-- ─────────────────────────────── hero -->
+  <section class="hero" id="top">
+    <div class="hero-text">
+      <p class="eyebrow reveal"><span class="live"></span><span id="availability"></span></p>
+      <h1 class="reveal">
+        <span class="line"><span id="name-a"></span></span>
+        <span class="line accent"><span id="name-b"></span></span>
+      </h1>
+      <p class="role reveal"><span class="bar"></span><span id="rolecycle" aria-live="polite"></span></p>
+      <p class="lede reveal" id="tagline"></p>
+      <p class="intro reveal" id="intro"></p>
+      <div class="cta-row reveal">
+        <a class="btn primary" id="cta-work" href="#work">See the work</a>
+        <a class="btn" id="cta-gh" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" id="cta-li" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <dl class="stats reveal" id="stats"></dl>
+    </div>
+    <div class="hero-figure reveal">
+      <div class="halo"></div>
+      <img id="portrait" src="./assets/aditya.png" alt="Illustrated portrait of Aditya Tyagi" width="520" height="473">
+      <span class="tag" id="hero-tag"></span>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────────── work -->
+  <section class="band" id="work">
+    <div class="band-head reveal">
+      <span class="num">01</span>
+      <h2>Selected work</h2>
+      <p class="band-sub">Nine shipped projects. Each one solved a real problem for a real user.</p>
+    </div>
+    <div class="grid" id="projects"></div>
+  </section>
+
+  <!-- ─────────────────────────────── path -->
+  <section class="band" id="path">
+    <div class="band-head reveal">
+      <span class="num">02</span>
+      <h2>The path so far</h2>
+      <p class="band-sub">From marketing data to production AI systems, in about two years.</p>
+    </div>
+    <ol class="timeline" id="timeline"></ol>
+    <div class="edu reveal" id="education"></div>
+  </section>
+
+  <!-- ─────────────────────────────── stack -->
+  <section class="band" id="stack">
+    <div class="band-head reveal">
+      <span class="num">03</span>
+      <h2>What I work with</h2>
+      <p class="band-sub">Tools I reach for without thinking about it.</p>
+    </div>
+    <div class="stack-cols" id="skills"></div>
+  </section>
+
+  <!-- ─────────────────────────────── contact -->
+  <section class="band contact" id="contact">
+    <div class="contact-inner">
+      <img class="pointing reveal" src="./assets/aditya-pointing.png" alt="" aria-hidden="true" width="620" height="564">
+      <div class="contact-text">
+        <span class="num reveal">04</span>
+        <h2 class="reveal">Let's build something</h2>
+        <p class="reveal" id="contact-line"></p>
+        <div class="cta-row reveal">
+          <a class="btn primary" id="c-li" target="_blank" rel="noopener">Message me on LinkedIn</a>
+          <a class="btn" id="c-gh" target="_blank" rel="noopener">Browse the code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© <span id="year"></span> Aditya Tyagi · Delhi, India</p>
+  <p class="foot-note">
+    Built by hand. Portrait illustrated from a photograph.
+    <a href="https://github.com/adi-0704/portfolio" target="_blank" rel="noopener">Source</a>
+  </p>
+</footer>
+
+<script src="./data.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
